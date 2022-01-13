@@ -5,7 +5,7 @@ import {
   Text
 } from "@chakra-ui/react";
 import React, { useContext } from "react";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { numberFormat } from "../hooks/numberFormat";
 import CartContext from "./CartContext";
 import { TiDelete } from "react-icons/ti";
