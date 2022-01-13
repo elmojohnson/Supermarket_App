@@ -1,7 +1,7 @@
 import { Box, Flex, Text, Button, useToast } from "@chakra-ui/react";
 import React from "react";
 import { RiShoppingCartLine } from "react-icons/ri";
-import { useContext, useState } from "react/cjs/react.development";
+import { useContext, useState } from "react";
 import CartContext from "./CartContext";
 import { v4 as uid } from "uuid";
 
